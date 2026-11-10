@@ -49,3 +49,15 @@ FAM | META SEQ | SST SEQ         | RANGE
   0 | 00000027 | 00000026 SST    |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb (0 MiB, fresh, 38 bytes, 1 entries, 0 tombstones)
   1 | 00000028 | 00000025 SST    |        [===========================================================================================] | 143f8ec291d1ec7b-ff078261c00f822a (0 MiB, fresh, 44596 bytes, 13 entries, 0 tombstones)
   2 | 00000029 | 00000024 SST    |                                   O                                                                  | 578fb9774083a2c1-578fb9774083a2c1 (0 MiB, fresh, 145 bytes, 1 entries, 0 tombstones)
+Time 2026-11-10T05:42:20.3734117Z
+Commit 00000035 15 keys in 20ms 287µs 200ns
+FAM | META SEQ | SST SEQ         | RANGE
+  0 | 00000033 | 00000032 SST    |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb (0 MiB, fresh, 38 bytes, 1 entries, 0 tombstones)
+  1 | 00000034 | 00000031 SST    |        [===========================================================================================] | 143f8ec291d1ec7b-ff078261c00f822a (0 MiB, fresh, 44596 bytes, 13 entries, 0 tombstones)
+  2 | 00000035 | 00000030 SST    |                                   O                                                                  | 578fb9774083a2c1-578fb9774083a2c1 (0 MiB, fresh, 145 bytes, 1 entries, 0 tombstones)
+Time 2026-11-10T05:42:38.5822493Z
+Commit 00000041 15 keys in 28ms 967µs 900ns
+FAM | META SEQ | SST SEQ         | RANGE
+  0 | 00000039 | 00000038 SST    |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb (0 MiB, fresh, 38 bytes, 1 entries, 0 tombstones)
+  2 | 00000040 | 00000037 SST    |                                   O                                                                  | 578fb9774083a2c1-578fb9774083a2c1 (0 MiB, fresh, 145 bytes, 1 entries, 0 tombstones)
+  1 | 00000041 | 00000036 SST    |        [===========================================================================================] | 143f8ec291d1ec7b-ff078261c00f822a (0 MiB, fresh, 44596 bytes, 13 entries, 0 tombstones)
