@@ -1,0 +1,3 @@
+module.exports=[46057,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsxs)("div",{children:[(0,b.jsx)("p",{className:"mb-6 rounded-md bg-brand-light px-3 py-2 text-sm text-brand-dark print:hidden",children:"Leader tools. Sign-in protection is coming in Week 05."}),a]})}])},30683,function(a){a.n(a.i(46057))}];
+
+//# sourceMappingURL=app_%28admin%29_layout_tsx_0oy9tg9loj92l._.js.map

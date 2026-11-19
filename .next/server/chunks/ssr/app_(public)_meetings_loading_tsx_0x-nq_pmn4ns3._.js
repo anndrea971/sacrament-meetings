@@ -1,0 +1,3 @@
+module.exports=[91712,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function(){return(0,b.jsxs)("div",{role:"status","aria-busy":"true",className:"animate-pulse space-y-4",children:[(0,b.jsx)("span",{className:"sr-only",children:"Loading meetings…"}),(0,b.jsx)("div",{className:"h-8 w-48 rounded bg-line"}),[0,1,2].map(a=>(0,b.jsx)("div",{className:"h-24 rounded-xl border border-line bg-surface"},a))]})}])},17612,function(a){a.n(a.i(91712))}];
+
+//# sourceMappingURL=app_%28public%29_meetings_loading_tsx_0x-nq_pmn4ns3._.js.map
