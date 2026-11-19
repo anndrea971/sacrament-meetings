@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* Shared design tokens: colors, typography, and spacing defaults. */
+:root {
+  --background: #fbf8f3;
+  --foreground: #1f2933;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-brand: #1f4e5f;
+  --color-brand-dark: #153744;
+  --color-brand-light: #e3eef1;
+  --color-accent: #b4642b;
+  --color-surface: #ffffff;
+  --color-line: #e4ddd0;
+  --color-muted: #52606d;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  color: var(--color-brand-dark);
+  line-height: 1.2;
+}
+
+/* Visible keyboard focus for every interactive element. */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Print: clean black-on-white program without site chrome. */
+@media print {
+  :root {
+    --background: #ffffff;
+  }
+
+  body {
+    font-size: 12pt;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
