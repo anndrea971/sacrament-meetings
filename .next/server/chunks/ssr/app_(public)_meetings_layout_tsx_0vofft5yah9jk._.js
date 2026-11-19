@@ -1,3 +1,3 @@
-module.exports=[61467,a=>{"use strict";a.i(7997);let b=Error("Cannot find module '@/components/NavLinks'");throw b.code="MODULE_NOT_FOUND",b},76213,function(a){a.n(a.i(61467))}];
+module.exports=[61467,a=>{"use strict";var b=a.i(7997),c=a.i(93975);let d=[{href:"/meetings",label:"All programs",exact:!0},{href:"/meetings/current",label:"This week"}];a.s(["default",0,function({children:a}){return(0,b.jsxs)("div",{children:[(0,b.jsx)(c.default,{items:d,ariaLabel:"Meetings section",className:"mb-6 border-b border-line pb-3 print:hidden"}),a]})}])},76213,function(a){a.n(a.i(61467))}];
 
 //# sourceMappingURL=app_%28public%29_meetings_layout_tsx_0vofft5yah9jk._.js.map

@@ -1,0 +1,13 @@
+{
+  "/(admin)/meetings/[id]/edit/page": "/meetings/[id]/edit",
+  "/(admin)/meetings/new/page": "/meetings/new",
+  "/(public)/meetings/[id]/page": "/meetings/[id]",
+  "/(public)/meetings/current/page": "/meetings/current",
+  "/(public)/meetings/page": "/meetings",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/meetings/[id]/route": "/api/meetings/[id]",
+  "/api/meetings/route": "/api/meetings",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}
