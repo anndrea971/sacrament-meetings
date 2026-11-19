@@ -52,10 +52,44 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 }
 
 
-// Validate ../../../app/meetings/[id]/page.tsx
+// Validate ../../../app/(admin)/meetings/[id]/edit/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/meetings/[id]/edit">> = Specific
+  const handler = {} as typeof import("../../../app/(admin)/meetings/[id]/edit/page.js")
+  type __Check = __IsExpected<typeof handler>
+  
+  type __ParamMatchingValue =
+    typeof handler extends { unstable_paramMatching: infer Matcher } ? Matcher :
+    typeof handler extends { unstable_generateParamMatching: (...args: any[]) => infer Matcher } ? Awaited<Matcher> : {}
+  type __InvalidParamMatchingKeys = Exclude<keyof __ParamMatchingValue, keyof ParamMap["/meetings/[id]/edit"]>
+  type __AssertNoInvalidParamMatchingKeys<Invalid extends never> = Invalid
+  const __paramMatchingKeyCheck: __AssertNoInvalidParamMatchingKeys<__InvalidParamMatchingKeys> | undefined = undefined
+  void __paramMatchingKeyCheck
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/(admin)/meetings/new/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/meetings/new">> = Specific
+  const handler = {} as typeof import("../../../app/(admin)/meetings/new/page.js")
+  type __Check = __IsExpected<typeof handler>
+  
+  type __ParamMatchingValue =
+    typeof handler extends { unstable_paramMatching: infer Matcher } ? Matcher :
+    typeof handler extends { unstable_generateParamMatching: (...args: any[]) => infer Matcher } ? Awaited<Matcher> : {}
+  type __InvalidParamMatchingKeys = Exclude<keyof __ParamMatchingValue, keyof ParamMap["/meetings/new"]>
+  type __AssertNoInvalidParamMatchingKeys<Invalid extends never> = Invalid
+  const __paramMatchingKeyCheck: __AssertNoInvalidParamMatchingKeys<__InvalidParamMatchingKeys> | undefined = undefined
+  void __paramMatchingKeyCheck
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/(public)/meetings/[id]/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/meetings/[id]">> = Specific
-  const handler = {} as typeof import("../../../app/meetings/[id]/page.js")
+  const handler = {} as typeof import("../../../app/(public)/meetings/[id]/page.js")
   type __Check = __IsExpected<typeof handler>
   
   type __ParamMatchingValue =
@@ -69,10 +103,10 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
-// Validate ../../../app/meetings/current/page.tsx
+// Validate ../../../app/(public)/meetings/current/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/meetings/current">> = Specific
-  const handler = {} as typeof import("../../../app/meetings/current/page.js")
+  const handler = {} as typeof import("../../../app/(public)/meetings/current/page.js")
   type __Check = __IsExpected<typeof handler>
   
   type __ParamMatchingValue =
@@ -86,33 +120,16 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
-// Validate ../../../app/meetings/page.tsx
+// Validate ../../../app/(public)/meetings/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/meetings">> = Specific
-  const handler = {} as typeof import("../../../app/meetings/page.js")
+  const handler = {} as typeof import("../../../app/(public)/meetings/page.js")
   type __Check = __IsExpected<typeof handler>
   
   type __ParamMatchingValue =
     typeof handler extends { unstable_paramMatching: infer Matcher } ? Matcher :
     typeof handler extends { unstable_generateParamMatching: (...args: any[]) => infer Matcher } ? Awaited<Matcher> : {}
   type __InvalidParamMatchingKeys = Exclude<keyof __ParamMatchingValue, keyof ParamMap["/meetings"]>
-  type __AssertNoInvalidParamMatchingKeys<Invalid extends never> = Invalid
-  const __paramMatchingKeyCheck: __AssertNoInvalidParamMatchingKeys<__InvalidParamMatchingKeys> | undefined = undefined
-  void __paramMatchingKeyCheck
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../../app/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
-  const handler = {} as typeof import("../../../app/page.js")
-  type __Check = __IsExpected<typeof handler>
-  
-  type __ParamMatchingValue =
-    typeof handler extends { unstable_paramMatching: infer Matcher } ? Matcher :
-    typeof handler extends { unstable_generateParamMatching: (...args: any[]) => infer Matcher } ? Awaited<Matcher> : {}
-  type __InvalidParamMatchingKeys = Exclude<keyof __ParamMatchingValue, keyof ParamMap["/"]>
   type __AssertNoInvalidParamMatchingKeys<Invalid extends never> = Invalid
   const __paramMatchingKeyCheck: __AssertNoInvalidParamMatchingKeys<__InvalidParamMatchingKeys> | undefined = undefined
   void __paramMatchingKeyCheck
@@ -144,10 +161,10 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 
 
 
-// Validate ../../../app/layout.tsx
+// Validate ../../../app/(admin)/layout.tsx
 {
   type __IsExpected<Specific extends LayoutConfig<"/">> = Specific
-  const handler = {} as typeof import("../../../app/layout.js")
+  const handler = {} as typeof import("../../../app/(admin)/layout.js")
   type __Check = __IsExpected<typeof handler>
   
   type __ParamMatchingValue =
@@ -161,10 +178,10 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
-// Validate ../../../app/meetings/layout.tsx
+// Validate ../../../app/(public)/meetings/layout.tsx
 {
   type __IsExpected<Specific extends LayoutConfig<"/meetings">> = Specific
-  const handler = {} as typeof import("../../../app/meetings/layout.js")
+  const handler = {} as typeof import("../../../app/(public)/meetings/layout.js")
   type __Check = __IsExpected<typeof handler>
   
   type __ParamMatchingValue =
