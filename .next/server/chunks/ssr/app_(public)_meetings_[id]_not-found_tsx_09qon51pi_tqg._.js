@@ -1,3 +1,0 @@
-module.exports=[49780,a=>{"use strict";var b=a.i(7997),c=a.i(95936);a.s(["default",0,function(){return(0,b.jsxs)("div",{className:"rounded-xl border border-line bg-surface p-8 text-center",children:[(0,b.jsx)("h1",{className:"text-2xl font-semibold",children:"Meeting not found"}),(0,b.jsx)("p",{className:"mt-2 text-muted",children:"We couldn’t find a program with that ID. It may have been removed or the link may be incorrect."}),(0,b.jsx)(c.default,{href:"/meetings",className:"mt-6 inline-block rounded-md bg-brand px-5 py-2.5 font-semibold text-white hover:bg-brand-dark",children:"View all meetings"})]})}])},78144,function(a){a.n(a.i(49780))}];
-
-//# sourceMappingURL=app_%28public%29_meetings_%5Bid%5D_not-found_tsx_09qon51pi_tqg._.js.map
