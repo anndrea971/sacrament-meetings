@@ -1,5 +1,7 @@
 ## Getting Started
-for sacrament meetings
+
+this is for sacrament meetings
+
 ```bash
 npm run dev
 
