@@ -1,1 +1,5 @@
 node_modules
+# added for W04
+/.next/
+.vercel
+.env.local
